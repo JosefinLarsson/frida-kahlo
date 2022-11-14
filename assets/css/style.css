@@ -6,11 +6,26 @@
     border: none;
 }
 
-
 header {
     font-family: Roboto Serif, sans-serif;
 }
 
 body {
     font-family: David Libre, sans-serif;
+}
+
+/* headings and logo */
+
+h1, h2 {
+    font-family: Roboto serif, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: black;
+}
+
+#logo {
+    float: left;
+    font-size: 400%;
+    margin-left: 70px;
+    margin-top: 20px;
 }
