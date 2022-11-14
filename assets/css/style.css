@@ -104,3 +104,40 @@ h2 {
     right: 130px;
     position: absolute;
 }
+
+
+
+
+
+/* footer */
+
+footer {
+    height: 100px;
+    background-color: white
+}
+
+#social-networks {
+    text-align: center;
+} 
+
+#social-networks >li {
+    display: inline;
+    list-style-type: none;
+}
+
+#social-networks a {
+    font-size: 150%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
+   
+    margin-right: 30px;
+    margin-top: 20px;
+
+}
+
+#copyright {
+    text-align: left;
+    font-family: David Libre, sans-serif;
+    color: #3a3a3a;
+}
