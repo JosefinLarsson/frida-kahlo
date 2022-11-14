@@ -12,6 +12,7 @@ header {
 
 body {
     font-family: David Libre, sans-serif;
+    background-color: #e6f7ff;
 }
 
 /* headings and logo */
@@ -29,3 +30,37 @@ h1, h2 {
     margin-left: 70px;
     margin-top: 20px;
 }
+
+
+/* navigation links */
+
+#menu {
+    font-size: 120%;
+    letter-spacing: 4px;
+    line-height: 75px;
+}
+
+#logo {
+    line-height: 75px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid black;
+}
+
+.active {
+    border-bottom: 1px solid black;
+    color: black;
+} 
