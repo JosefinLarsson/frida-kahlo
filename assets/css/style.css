@@ -12,16 +12,19 @@ header {
 
 body {
     font-family: David Libre, sans-serif;
-    background-color: #e6f7ff;
+    /* background-color: #e6f7ff; */
+    /* background-color: #e8f4ea; */
+    background-color: #f6eeee;
 }
 
 /* headings and logo */
 
-h1, h2 {
+h1,
+h2 {
     font-family: Roboto serif, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: black;
+    color: #3a3a3a;
 }
 
 #logo {
@@ -57,10 +60,47 @@ h1, h2 {
 }
 
 #menu a:hover {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid magenta;
 }
 
 .active {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid magenta;
     color: black;
-} 
+}
+
+
+/* hero image & cover text */
+/* cover text needs to move over the hero image and adjust styling incl background color. Use rgba colour with opacity .7 */
+
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#hero-image {
+    height: 500px;
+    width: 100%;
+    background: url('../images/pexels-olga-kalinina-7529048.jpg') no-repeat center center;
+}
+
+#cover-text h2 {
+    color: #3a3a3a;
+}
+
+#cover-text {
+    font-size: 130%;
+    text-transform: uppercase;
+    font-family: Roboto Serif, sans-serif;
+    letter-spacing: 4px;
+    background-color: white;
+    width: 400px;
+    height: 300px;
+    padding-top: 40px;
+    padding-left: 10px;
+    background-color: red;
+    bottom: 50px;
+    right: 130px;
+    position: absolute;
+}
