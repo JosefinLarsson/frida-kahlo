@@ -106,38 +106,31 @@ h2 {
 }
 
 
-
-
-
 /* footer */
 
 footer {
     height: 100px;
-    background-color: white
 }
 
-#social-networks {
+.contact-social-copy {
     text-align: center;
 } 
 
-#social-networks >li {
+.contact-social-copy >li {
     display: inline;
     list-style-type: none;
 }
 
-#social-networks a {
-    font-size: 150%;
+.contact-social-copy a {
+    font-size: 120%;
+    text-decoration: none;
     margin: 1%;
-    padding: 5%;
+    padding: 1%;
     color: #3a3a3a;
-   
     margin-right: 30px;
     margin-top: 20px;
-
 }
 
-#copyright {
-    text-align: left;
-    font-family: David Libre, sans-serif;
-    color: #3a3a3a;
+.contact-social-copy a:hover {
+    border-bottom: 1px solid magenta;
 }
