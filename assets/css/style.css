@@ -194,3 +194,19 @@ footer {
 #contact-social-copy a:hover {
     border-bottom: 1px solid magenta;
 }
+
+
+/* gallery */
+/* 
+#gallery {
+    height: 600px;
+    width: 100%;
+    /* clear: both;
+    line-height: 0; */
+    column-count: 3;
+    column-gap: 5px;
+}
+
+/* #gallery > img {
+    width: 70%;
+} */ */
