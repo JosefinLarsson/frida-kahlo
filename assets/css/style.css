@@ -63,12 +63,11 @@ h2 {
 
 .active {
     border-bottom: 1px solid magenta;
-    color: black;
 }
 
 
-/* hero image & cover text */
-/* cover text needs to move over the hero image and adjust styling incl background color. Use rgba colour with opacity .7 */
+/* hero image */
+
 
 #hero-outer {
     height: 500px;
@@ -83,9 +82,7 @@ h2 {
     background: url('../images/pexels-olga-kalinina-7529048.jpg') no-repeat center center;
 }
 
-
-
-/* Intro section */
+/* homepage */
 
 hr {
     display: block;
@@ -144,7 +141,7 @@ hr {
     overflow: hidden;
 }
 
-#circle-cover-bg-a{
+#circle-cover-bg-a {
     background: url('../images/frida-in-blue-dress.jpg') no-repeat center center;
     height: 100%;
     border-radius: 50%;
@@ -161,7 +158,6 @@ hr {
     height: 100%;
     border-radius: 50%;
 }
-
 
 
 /* footer */
@@ -190,9 +186,9 @@ footer {
     margin-top: 20px;
 }
 
-#contact-social-copy a:hover {
+/* #contact-social-copy a:hover {
 font-weight:400;
-}
+} */
 
 footer p {
     text-align: center;
@@ -213,38 +209,46 @@ footer hr {
     border-top: 1px solid #3a3a3a;
 }
 
-    /* gallery, have tried at least ten versions of gallery wall code and none work */
 
-    #gallery {
-        clear: both;
-    } 
+/* learn more page */
 
-    .column div {
-        display: inline-block;
-        vertical-align: middle;
-    }
+#learn-more {
+    height: 500px;
+}
 
-    .column img {
-        width: 300px;
-        height: 350px;
+#learn-more h2 {
+    text-align: center;
+    padding: 30px;
+}
 
-    } 
+.external-sites {
+    text-align: center;
+    padding: 30px;
+}
 
+.external-sites a {
+    color: #3a3a3a;
+    font-size: 120%;
+    text-decoration: none;
+}
 
-    /* learn more */
-    
-    #learn-more {
-        height: 500px;
-    }
-
-    #learn-more-list {
-        display: inline;
-        list-style-type: none;
-    }
-
-    #learn-more-list a {
-     
-    
-    }
+.external-sites a:hover {
+    color: magenta;
+}
 
 
+/* gallery page */
+
+#gallery {
+    clear: both;
+}
+
+.column div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.column img {
+    width: 300px;
+    height: 350px;
+}
