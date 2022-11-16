@@ -12,8 +12,6 @@ header {
 
 body {
     font-family: David Libre, sans-serif;
-    /* background-color: #e6f7ff; */
-    /* background-color: #e8f4ea; */
     background-color: #f6eeee;
 }
 
@@ -73,7 +71,7 @@ h2 {
 /* cover text needs to move over the hero image and adjust styling incl background color. Use rgba colour with opacity .7 */
 
 #hero-outer {
-    height: 600px;
+    height: 500px;
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -83,62 +81,43 @@ h2 {
     height: 500px;
     width: 100%;
     background: url('../images/pexels-olga-kalinina-7529048.jpg') no-repeat center center;
-
 }
 
-/* #cover-text h2 {
-    color: #3a3a3a;
-}
-
-#cover-text {
-    font-size: 130%;
-    text-transform: uppercase;
-    font-family: Roboto Serif, sans-serif;
-    letter-spacing: 4px;
-    background-color: white;
-    width: 400px;
-    height: 300px;
-    padding-top: 40px;
-    padding-left: 10px;
-    background-color: red;
-    bottom: 50px;
-    right: 130px;
-    position: absolute;
-} */
 
 
 /* Intro section */
 
 #intro {
-    height: 600px;
+    height: 500px;
 }
 
 #intro h2 {
-    text-align: center;
+    padding-top: 30px;
+    text-align: left;
 }
 
 #left-intro {
     padding-top: 30px;
-    width: 33%;
+    width: 50%;
     float: left;
 }
 
 #right-intro {
     padding-top: 30px;
-    width: 33%;
+    width: 50%;
     float: right;
 }
 
-#center-intro {
+/* #center-intro {
     padding-top: 30px;
     width: 33%;
     margin: 0 auto;
-}
+} */
 
 #center-intro-p {
     width: 100%;
     line-height: 30px;
-    font-size: 110%;
+    font-size: 100%;
     margin-top: 30px;
     text-align: left;
 }
@@ -156,18 +135,20 @@ h2 {
 }
 
 #circle-cover-bg-left {
-    /* background: url('../images/frida-kahlo-the-breton-portrait.jpg') no-repeat center center; */
     background: url('../images/frida-in-blue-dress.jpg') no-repeat center center;
     height: 100%;
     border-radius: 50%;
 }
 
 #circle-cover-bg-right {
-    /* background: url('../images/frida-kahlo-1932.jpg') no-repeat center center; */
     background: url('../images/frida-photo.jpg') no-repeat center center;
     height: 100%;
     border-radius: 50%;
 }
+
+
+
+
 
 /* footer */
 
@@ -198,50 +179,23 @@ footer {
     border-bottom: 1px solid magenta;
 
 
-    /* about */
 
-    .about {
-        height: 600px;
-    }
-
-    .about > h2 {
-        text-align: center;
-    }
-
-    #left-about {
-        padding-top: 30px;
-        width: 33%;
-        float: left;
-    }
-
-    #right-about {
-        padding-top: 30px;
-        width: 33%;
-        float: right;
-    }
-
-    #center-about {
-        padding-top: 30px;
-        width: 33%;
-        margin: 0 auto;
-    }
 
 
 
     /* gallery */
 
-    #gallery {
-        height: 600px;
+    #gallery > div {
         clear: both;
-        line-height: 0;
-        column-count: 3;
-        column-gap: 10px;
-        margin-left: 30px;
-        padding-left: 30px;
-        padding-top: 30px;
     }
 
-    #gallery>img {
-        max-height: 350px;
-        max-width: 300px;
-    }
+ 
+
+
+    /* about section */
+    
+   #about{
+    height: 600px;
+   }
+
+   
