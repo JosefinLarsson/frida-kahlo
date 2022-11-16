@@ -87,6 +87,21 @@ h2 {
 
 /* Intro section */
 
+hr {
+    display: block;
+    position: relative;
+    padding: 0;
+    margin: 8px auto;
+    height: 0;
+    width: 90%;
+    max-height: 0;
+    font-size: 1px;
+    line-height: 0;
+    clear: both;
+    border: none;
+    border-top: 1px solid #3a3a3a;
+}
+
 #intro {
     height: 500px;
 }
@@ -153,7 +168,7 @@ h2 {
 
 footer {
     height: 100px;
-    background-color: rgb(242, 177, 210);
+    background-color: rgb(239 205 222);
 }
 
 #contact-social-copy {
@@ -176,7 +191,26 @@ footer {
 }
 
 #contact-social-copy a:hover {
-font-weight: bold;
+font-weight:400;
+}
+
+footer p {
+    text-align: center;
+}
+
+footer hr {
+    display: block;
+    position: relative;
+    padding: 0;
+    margin: 8px auto;
+    height: 0;
+    width: 40%;
+    max-height: 0;
+    font-size: 1px;
+    line-height: 0;
+    clear: both;
+    border: none;
+    border-top: 1px solid #3a3a3a;
 }
 
     /* gallery, have tried at least ten versions of gallery wall code and none work */
