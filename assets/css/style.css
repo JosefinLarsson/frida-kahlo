@@ -175,24 +175,28 @@ footer {
     margin-top: 20px;
 }
 
-/* #contact-social-copy a:hover {
+#contact-social-copy a:hover {
+font-weight: bold;
+}
 
-} */
-
-    /* gallery */
+    /* gallery, have tried at least ten versions of gallery wall code and none work */
 
     #gallery {
         clear: both;
-    }
- 
-    #gallery div {
+    } 
+
+    .column div {
         display: inline-block;
         vertical-align: middle;
     }
-    #gallery img {
-        width:200px;
-        height: auto;
-    }
+
+    .column img {
+        width: 300px;
+        height: 350px;
+
+    } 
+
+
     /* learn more */
     
     #learn-more {
