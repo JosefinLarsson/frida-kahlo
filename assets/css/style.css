@@ -15,6 +15,7 @@ body {
     background-color: #f6eeee;
 }
 
+
 /* headings and logo */
 
 h1,
@@ -65,7 +66,6 @@ h2 {
 
 /* hero image */
 
-
 #hero-outer {
     height: 500px;
     width: 100%;
@@ -78,6 +78,7 @@ h2 {
     width: 100%;
     background: url('../images/pexels-olga-kalinina-7529048.jpg') no-repeat center center;
 }
+
 
 /* homepage */
 
