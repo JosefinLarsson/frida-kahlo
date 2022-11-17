@@ -30,6 +30,7 @@ h2 {
     font-size: 400%;
     margin-left: 70px;
     margin-top: 20px;
+    line-height: 75px;
 }
 
 
@@ -38,10 +39,6 @@ h2 {
 #menu {
     font-size: 120%;
     letter-spacing: 4px;
-    line-height: 75px;
-}
-
-#logo {
     line-height: 75px;
 }
 
@@ -99,29 +96,29 @@ hr {
     border-top: 1px solid #3a3a3a;
 }
 
-#intro {
+.intro {
     height: 500px;
 }
 
-#intro h2 {
+.intro h2 {
     padding-top: 30px;
     text-align: left;
     text-decoration: underline;
 }
 
-#left-intro {
+.left-intro {
     padding-top: 30px;
     width: 40%;
     float: left;
 }
 
-#right-intro {
+.right-intro {
     padding-top: 30px;
     width: 60%;
     float: right;
 }
 
-#center-intro-p {
+.intro-p {
     width: 100%;
     line-height: 30px;
     font-size: 100%;
@@ -186,10 +183,6 @@ footer {
     margin-top: 20px;
 }
 
-/* #contact-social-copy a:hover {
-font-weight:400;
-} */
-
 footer p {
     text-align: center;
 }
@@ -217,13 +210,16 @@ footer hr {
 }
 
 #learn-more h2 {
-    text-align: center;
+    text-align: left;
     padding: 30px;
+    margin-left: 70px;
+    text-decoration: underline;
 }
 
 .external-sites {
-    text-align: center;
+    text-align: left;
     padding: 30px;
+    margin-left: 70px;
 }
 
 .external-sites a {
@@ -243,12 +239,12 @@ footer hr {
     clear: both;
 }
 
-.column div {
+.row div {
     display: inline-block;
     vertical-align: middle;
 }
 
-.column img {
+.row img {
     width: 300px;
     height: 350px;
 }
