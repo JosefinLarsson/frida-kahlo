@@ -7,11 +7,11 @@
 }
 
 header {
-    font-family: Roboto Serif, sans-serif;
+    font-family: "Roboto Serif", sans-serif;
 }
 
 body {
-    font-family: David Libre, sans-serif;
+    font-family: "David Libre", sans-serif;
     background-color: #f6eeee;
 }
 
@@ -20,7 +20,7 @@ body {
 
 h1,
 h2 {
-    font-family: Roboto serif, sans-serif;
+    font-family: "Roboto serif", sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #3a3a3a;
@@ -289,7 +289,6 @@ footer hr {
         line-height: 25px;
     }
 
-
     .intro  {
         width: 90%;
         height: 1200px;
@@ -307,17 +306,7 @@ footer hr {
         text-align: center;
     }
 
-    .intro-p,
     .intro-p {
         text-align: center;
         padding: 0 20px;
     }
-
-
-/* For small screen sizes 800px and down */
-
-/* @media screen and (max-width: 800px) {
-    #photos {
-        column-count: 2;
-    }
-} */
