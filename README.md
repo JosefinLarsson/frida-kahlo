@@ -72,7 +72,7 @@ Mentor feedback was received on two occasions which resulted in small styling ch
 ## Validator Testing
 
 #### HTML
-No errors were returned when passing through the official W3C validator
+No errors were found when passing through the official W3C validator
 
 #### CSS
 No errors were found when passing through the official (Jigsaw) validator
@@ -80,6 +80,13 @@ No errors were found when passing through the official (Jigsaw) validator
 
 ### Unfixed Bugs
 No known bugs at time of deployment.
+
+### Fixed Bugs
+
+####Pre-Deployment
+Multiple minor styling errors were fixed before deployment.
+
+####Post-Deployment
 
 
 

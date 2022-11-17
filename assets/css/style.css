@@ -113,8 +113,8 @@ h2 {
 }
 
 .circle-container {
-    width: 300px;
-    height: 300px;
+    width: 270px;
+    height: 270px;
     padding: 30px;
     border-style: solid;
     border-color: #3a3a3a;
@@ -142,9 +142,9 @@ h2 {
     border-radius: 50%;
 }
 
-/* hr styling code below from stackoverflow.com */ 
+/* .intro-hr styling code below from stackoverflow.com */ 
 
-hr {
+.intro-hr {
     display: block;
     position: relative;
     padding: 0;
@@ -169,6 +169,7 @@ footer {
 
 #contact-social-copy {
     text-align: center;
+    padding-top: 25px;
 }
 
 #contact-social-copy>li {
@@ -190,9 +191,9 @@ footer p {
     text-align: center;
 }
 
-/* footer hr styling code below from stackoverflow.com */
+/* .footer-hr styling code below from stackoverflow.com */
 
-footer hr {
+.footer-hr {
     display: block;
     position: relative;
     padding: 0;
@@ -242,9 +243,10 @@ footer hr {
 
 #gallery {
     clear: both;
+    text-align: center;
 }
 
-.row div {
+.row {
     display: inline-block;
     vertical-align: middle;
 }
@@ -287,9 +289,12 @@ footer hr {
         margin-left: 30px;
         margin-bottom: 20px;
         line-height: 25px;
+        font-size: 85%;
+        letter-spacing: 2px;
+        float: left;
     }
 
-    .intro  {
+    .intro {
         width: 90%;
         height: 1200px;
         margin: 0 auto;
@@ -303,10 +308,28 @@ footer hr {
     .left-intro h2,
     .right-intro h2 {
         width: 100%;
-        text-align: center;
     }
 
     .intro-p {
-        text-align: center;
         padding: 0 20px;
     }
+
+    #contact-social-copy a {
+        font-size: 85%;
+        margin: 0;
+        padding: 0;
+
+    }
+
+    footer p {
+        font-size: 75%;
+    }
+
+    #logo {
+        font-size: 250%;
+        margin-left: 30px;
+    }
+
+    .circle-container {
+    }
+}
