@@ -56,11 +56,11 @@ h2 {
 }
 
 #menu a:hover {
-    border-bottom: 1px solid magenta;
+    border-bottom: 1px solid #FF00FF;
 }
 
 .active {
-    border-bottom: 1px solid magenta;
+    border-bottom: 1px solid #FF00FF;
 }
 
 
@@ -75,8 +75,8 @@ h2 {
 
 #hero-image {
     height: 500px;
-    width: 100%;
-    background: url('../images/pexels-olga-kalinina-7529048.jpg') no-repeat center center;
+    width: 110%;
+    background: url('../images/pexels-olga-kalinina-7529048\ \(1\).jpg') no-repeat center center;
 }
 
 
@@ -142,7 +142,7 @@ h2 {
     border-radius: 50%;
 }
 
-/* .intro-hr styling code below from stackoverflow.com */ 
+/* .intro-hr styling code below from stackoverflow.com */
 
 .intro-hr {
     display: block;
@@ -235,7 +235,7 @@ footer p {
 }
 
 .external-sites a:hover {
-    color: magenta;
+    color: #FF00FF;
 }
 
 
@@ -244,6 +244,14 @@ footer p {
 #gallery {
     clear: both;
     text-align: center;
+
+}
+
+#gallery h2 {
+    text-align: left;
+    padding: 30px;
+    margin-left: 70px;
+    text-decoration: underline;
 }
 
 .row {
@@ -330,6 +338,5 @@ footer p {
         margin-left: 30px;
     }
 
-    .circle-container {
-    }
+    .circle-container {}
 }
